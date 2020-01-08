@@ -5,7 +5,7 @@ if($_SESSION["enrollment"]!="")
 <html>
   <head>
       <meta charset="UTF-8">
-    	<title>Quiz</title>
+    	<title>War For Trezor</title>
   <link rel="icon" href="https://i.imgur.com/hmaZoKf.gif" type="image/gif">
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T">
       <link rel="stylesheet" href="asset/css/style.css">
@@ -29,7 +29,7 @@ if($_SESSION["enrollment"]!="")
     <!--<form action="trackconnect" method="post">-->
       <div class="box black">
         <div align="center">
-          <h1>WAR FOR TREZOR</h1>
+          <h1>War For Trezor</h1>
             <?php $strValue = $_GET['id'];?>
             <?php if ($strValue=="completed") { echo ('<meta http-equiv="refresh" content="0; URL=leaderboard">');} else{ ?>
             <img src="<?php echo "https://i.imgur.com/".$strValue.".jpg"?>" height="300" width="300">

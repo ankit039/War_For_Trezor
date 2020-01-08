@@ -5,7 +5,7 @@ $_SESSION["enrollment"]=array();
 <html>
 <head>
   <meta charset="UTF-8">
-	<title>Qiz O'Pic</title>
+	<title>War For Trezor</title>
   <link rel="icon" href="https://i.imgur.com/hmaZoKf.gif" type="image/gif">
   <link rel="stylesheet" href="asset/css/login.css">
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
