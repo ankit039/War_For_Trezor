@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+:root{
+	--main-font:'Pacifico', cursive;
+}
+html{
+	font-family: sans-serif;
+}
+body{
+    overflow:hidden;
+}
+header{
+	height: 100vh;
+	width: 100%;
+	background-image: url("https://i.imgur.com/CbwOZox.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	user-select: none;
+}
+.main-header{
+	text-align: center;
+	transition: 0.5s;
+    overflow:hidden;
+}
+.main-header:hover{
+	-webkit-box-shadow: -4px -2px 44px 8px rgba(136,136,136,0.79);
+    -moz-box-shadow: -4px -2px 44px 8px rgba(136,136,136,0.79);
+    box-shadow: -4px -2px 44px 8px rgba(136,136,136,0.79);
+}
+.main-header h1{
+	font-size: 3rem;
+	font-family: var(--main-font);
+	color: #0D0D0D;
+	margin: 10px;
+}
+.main-header hr{
+	width: 50%;
+	margin: auto;
+	padding: 5px;
+	border-radius: 25px 25px;
+	background: #888888;
+	border: none;
+}
+.main-header h4{
+	margin: 5px;
+	color: #34332F;
+	font-size: 1rem;
+}
+.main-header input{
+	width: 90%;
+	padding: 1rem;
+	margin: 10px 0px;
+	border: none;
+	border-bottom: 1px solid #0D0D0D;
+	font-size: 1.3rem;
+	background: transparent;
+	outline: none; 
+}
+.main-header button{
+	padding: 1rem 3rem;
+	font-size: 1.2rem;
+	background: #2C2B29;
+	color: #fff;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: 0.5s;
+	outline: none;
+	margin: 10px;
+}
+.main-header button:hover{
+	transform: scale(1.1);
+}
